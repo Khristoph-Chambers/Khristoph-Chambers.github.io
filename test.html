@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Function Example</title>
+  <style>
+    #searchInput {
+      margin-bottom: 10px;
+    }
+  </style>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body>
+  <h1>Search Function Example</h1>
+
+  <input type="text" id="searchInput" placeholder="Enter search term">
+  <button onclick="search()">Search</button>
+
+  <ul id="searchResults"></ul>
+
+  <script>
+    const data = [
+    <div class="row">
+          <div class="col">
+            <div class="card border-dark mb-2 " style="max-width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="..." class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Flow</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br>
+
+            <div class="card border-dark mb-2" style="max-width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="..." class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Digicel</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="card border-dark mb-2" style="max-width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="..." class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">C&WJ</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+    ];
+
+    function search() {
+      const searchInput = document.getElementById("searchInput").value.toLowerCase();
+      const searchResults = document.getElementById("searchResults");
+
+      // Clear previous search results
+      searchResults.innerHTML = "";
+
+      // Perform search
+      const results = data.filter(item => item.toLowerCase().includes(searchInput));
+
+      if (results.length > 0) {
+        results.forEach(result => {
+          const li = document.createElement("li");
+          li.textContent = result;
+          searchResults.appendChild(li);
+        });
+      } else {
+        const li = document.createElement("li");
+        li.textContent = "No results found";
+        searchResults.appendChild(li);
+      }
+    }
+  </script>
+</body>
+</html>

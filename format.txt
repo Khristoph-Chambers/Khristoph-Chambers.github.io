@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <div class="main-margin">
+      <div class="flex-container">
+        <div class="align-items-center">
+          <div class="main-header">
+            <a style="text-decoration: none; color: black;" href="index.html"> <p><strong><span style="color: rgb(0, 119, 73)">I</span>nternet <span style="color: rgb(0, 119, 73)">e</span><span style="color: rgb(251, 235, 1)">X</span><span style="color: rgb(0, 119, 73)">change</span> P<span style="color: rgb(251, 235, 1)">oint</span></strong></p></a>
+          </div>        </div>
+    </div>
+
+    <div style="background-color:rgb(251, 235, 1)">
+      <div class="flex-container">
+      <nav class="navbar navbar-expand-lg bg-body-white">
+          
+          <div class="container-fluid d-inline-flex">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-auto" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-4 me-4" >
+                      <a class="nav-link ms-4 me-5"  href="index.html"><strong>Home</strong></a>
+                      <a class="nav-link ms-4 me-5"  href="about.html"><strong>About</strong></a>
+                      <a class="nav-link ms-4 me-5" href="services.html"><strong>Services</strong></a>
+                      <a class="nav-link ms-4 me-5" href="members.html"><strong>Members</strong></a>
+                      <a class="nav-link ms-4 me-5" href="statistics.html"><strong>Statistics</strong></a>
+                      <a class="nav-link ms-4 me-5" href="news.html"><strong>News</strong></a>
+                      <a class="nav-link ms-4 me-5" href="contact.html"><strong>Contact Us</strong></a>
+                 
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      </div>
+      <div style="background-color: rgb(0, 119, 73)">
+        
+        
+          
+          <div class="container text-center">
+            <div class="row">
+              <div class="col mt-2 mb-2">
+               <img src="Images/Telephone.png"> +1 876-###-####
+              </div>
+              <div class="col mt-2 mb-2">
+                <a button class="btn btn-dark me-1 mb-1" type="button" href="register.html">REGISTER</button></a>
+                    </div>
+            </div>
+      </div>
+    </div>
+    </div>
+        </main>
+</body>
+</html>
+
+
+
+
+<footer class="text-center text-lg-start bg-light text-muted"> <br>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+      
+        <div class="row mt-3">
+          
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3">Intenet eXchange Point</i>
+            </h6>
+            <p>
+            #
+            </p>
+          </div>
+          
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              TABS
+            </h6>
+            <p>
+              <a href="yoga.html" class="text-reset">Catalogue</a>
+            </p>
+            <p>
+              <a href="pilates.html" class="text-reset">Customers</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset"></a>
+            </p>
+            <p>
+              <a href="#" class="text-reset"></a>
+            </p>
+          </div>
+          
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              Links
+            </h6>
+            <p>
+              <a href="register.php" class="text-reset">Register</a>
+            </p>
+            <p>
+              <a href="https://www.youtube.com/channel/UCcjrFU8OfjHsRkZu9i8CZJA" class="text-reset">Youtube</a>
+            </p>
+            <p>
+              <a href="mailto:timbuktu.connect@gmail.com" class="text-reset">Send Email</a>
+            </p>
+            <p>
+              <a href="" class="text-reset">FAQs</a>
+            </p>
+          </div>
+          
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> 4 Coke Dr, Manchester, JA</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              timbuktu.connect@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +1 (876) 335 9805</p>
+            <p><i class="fas fa-print me-3"></i> +1 (876) 547 4266</p>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(201, 201, 201, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="index.html">Timbuktu</a>
+      <p>
+    </div>
+   
+  </footer>

@@ -1,0 +1,41 @@
+
+  .container-faq {
+  
+    max-width: 80%;
+    max-height: 80%;
+    margin: 0 auto;
+    padding: 4%;
+    margin-top: 5%;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+
+  .question {
+    
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .answer {
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .answer p:last-child {
+    margin-bottom: 0;
+  }
+
+  .toggle-icon {
+    float: right;
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: none;
+  }

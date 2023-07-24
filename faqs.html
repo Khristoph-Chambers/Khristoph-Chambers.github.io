@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FAQ</title>
+  <link rel="stylesheet" href="CSS/faqs.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script>
+    function toggleAnswer(elementId) {
+      var answer = document.getElementById(elementId);
+      answer.classList.toggle("hidden");
+    }
+  </script>
+</head>
+<body>
+    <div class="main-margin2 " >
+        <div class="flex-container">
+          <div class="align-items-center">
+            <div class="main-header">
+              <a style="text-decoration: none; color: black; " href="index.html"> <p><strong><span style="color: rgb(0, 119, 73)">I</span>nternet <span style="color: rgb(0, 119, 73)">e</span><span style="color: rgb(251, 235, 1)">X</span><span style="color: rgb(0, 119, 73)">change</span> P<span style="color: rgb(251, 235, 1)">oint</span></strong></p></a>
+            </div>        </div>
+      </div>
+  
+      <div style="background-color:rgb(251, 235, 1)">
+        <div class="flex-container">
+        <nav class="navbar navbar-expand-lg bg-body-white">
+            
+            <div class="container-fluid d-inline-flex">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse me-auto" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-4 me-4" >
+                        <a class="nav-link ms-4 me-5"  href="index.html"><strong>Home</strong></a>
+                        <a class="nav-link ms-4 me-5"  href="about.html"><strong>About</strong></a>
+                        <a class="nav-link ms-4 me-5" href="services.html"><strong>Services</strong></a>
+                        <a class="nav-link ms-4 me-5" href="members.html"><strong>Members</strong></a>
+                        <a class="nav-link ms-4 me-5" href="statistics.html"><strong>Statistics</strong></a>
+                        <a class="nav-link ms-4 me-5" href="news.html"><strong>News</strong></a>
+                        <a class="nav-link ms-4 me-5" href="contact.html"><strong>Contact Us</strong></a>
+                   
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        </div>
+        <div style="background-color: rgb(0, 119, 73)">
+          
+          
+            
+            <div class="container text-center">
+              <div class="row">
+                <div class="col mt-2 mb-2">
+                 <img src="Images/Telephone.png"> +1 876-###-####
+                </div>
+                <div class="col mt-2 mb-2">
+                  <a button class="btn btn-dark me-1 mb-1" type="button" href="register.html">REGISTER</button></a>
+                      </div>
+              </div>
+        </div>
+      </div>
+
+     <div style="background-color: aliceblue">
+      
+  <div class="container-faq" style="background-color: white;" >
+    <h1>Frequently Asked Questions</h1>
+    <br><hr>
+
+    <div class="question">
+      <p style="font-weight: bold;">Question 1: Why Join an IXP? </p>
+      <div id="answer1" class="answer hidden">
+        <p>The IXP offers an opportunity for developing peering relationships locally by simplifying critical questions such as: 
+            <ul>
+                <li><strong><em>Where - </em></strong> the IXP has a known location and makes it easier to justify connection costs
+                and leverage presence at the IXP as the number of paritcipants grows.</li>
+                <li><strong><em>Where - </em></strong>connectoin speeds are defined by physcial network interfaces</li>
+                <li><strong><em>Where - </em></strong>participants peering at the exchange are usually publicly available and this 
+                makes it easier for any entitiy trying to justify peering at the IXP</li>
+            </ul>
+            In addition to this the IZP allows for its participantsto exchange traffic locally wehich leads:
+            <ul>
+                <li>Superior technical performance by improving latency</li>
+                <li>Increased network resilience against any fibre cuts on international fibre links</li>
+                <li>Greater control over one's data and service quality levels</li>
+            </ul>
+        </p>
+      </div>
+      <div class="toggle-icon" onclick="toggleAnswer('answer1')">+</div>
+    </div>
+
+    <div class="question">
+      <p style="font-weight: bold;">Question 2: Who Joins an IXP?</p>
+      
+      <div id="answer2" class="answer hidden">
+        <p>An IXP can consist of a diverse entities such as financial companies, ISPs, content providers and even content delivery 
+            networks (CDNs) – such as YouTube, Google, Akamai etc. IXPs provide a meeting point for such entities and allows them 
+            to execute meaningful strategies in regards to delivering improved quality of service, affording greater access to 
+            users as well as offering more diverse product offerings over the Internet.</p>
+        <p>Consequently such entities are able to leverage presence at the IXP to drive key aspects of their business models. 
+            Consider the case of a content provider that allows one to view movies online for example. It will be important for 
+            them to deliver such movies as close to the end-user as possible in order for such users to enjoy optimal viewing of 
+            their content of choice.</p>
+        <p>In such a situation an IXP provides an excellent place to house their servers, peer with ISPs offering access to end-users 
+            as well as allow for caching of frequently requested content for improved content delivery and management.</p>
+      </div>
+      <div class="toggle-icon" onclick="toggleAnswer('answer2')">+</div>
+    </div>
+
+    <div class="question">
+      <p style="font-weight: bold;">Question 3: Can I return a product?</p>
+      <div id="answer3" class="answer hidden">
+        <p>Yes, you can return a product within 30 days of purchase. Please refer to our returns policy for more information.</p>
+      </div>
+      <div class="toggle-icon" onclick="toggleAnswer('answer3')">+</div>
+    </div>
+
+    <!-- Add more questions and answers here -->
+
+  </div>
+  </div>
+</div>
+
+
+
+
+
+</main>
+</body>
+</html>

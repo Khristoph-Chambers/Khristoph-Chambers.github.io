@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <main>
+
+        <div class="main-margin">
+          <div class="flex-container">
+            <div class="align-items-center">
+              <div class="main-header">
+                <a style="text-decoration: none; color: black;" href="index.html"> <p><strong><span style="color: rgb(0, 119, 73)">I</span>nternet <span style="color: rgb(0, 119, 73)">e</span><span style="color: rgb(251, 235, 1)">X</span><span style="color: rgb(0, 119, 73)">change</span> P<span style="color: rgb(251, 235, 1)">oint</span></strong></p></a>
+              </div>            </div>
+        </div>
+        <div style="background-color:rgb(0, 119, 73)">
+          <div class="flex-container">
+          <nav class="navbar navbar-expand-lg bg-body-white">
+              
+              <div class="container-fluid d-inline-flex">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse me-auto" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ms-4 me-4" >
+                    <a class="nav-link ms-4 me-5"  href="index.html"><strong>Home</strong></a>
+                    <a class="nav-link ms-4 me-5" href="about.html"><strong>About</strong></a>
+                    <a class="nav-link ms-4 me-5" href="services.html"><strong>Services</strong></a>
+                    <a class="nav-link ms-4 me-5" href="members.html"><strong>Members</strong></a>
+                    <a class="nav-link ms-4 me-5" href="statistics.html"><strong>Statistics</strong></a>
+                    <a class="nav-link ms-4 me-5" href="news.html"><strong>News</strong></a>
+                    <a class="nav-link active ms-4 me-5" aria-current="page" href="contact.html"><strong>Contact Us</strong></a>
+                     
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          </div>
+          <div class="black-bg" >
+            <div class="container-fluid h5">
+            
+              
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col mt-2 mb-2">
+                   <a button class="btn btn-warning me-1 mb-1" type="button" href="register.html">REGISTER</button></a>
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+
+      
+        </div>
+        </div>
+<div style="background-color: whitesmoke;"></div>
+<div class="main-margin">
+        <div class="container-contact">
+          
+          <div class="container-contact-border">
+          <div class="contact-hd-bg">
+            <div class="head"> <br>
+              <h1><strong>Contact Us</strong></h1>
+            </div>  <br>
+          </div>
+          
+          
+            <br><p style="font-size: 15px;">Contact us with any questions or concerns. We will respond promptly!</p>
+          
+        <hr>
+        <form method="POST" action="mailto: #" enctype="multipart/form-data">
+      <div class="row oneform" id="contact-form">
+        <div class="form-floating mb-4 mt-4">
+          <input type="text" class="form-control" name="name" id="name" placeholder="Full Name" style="background-color: aliceblue;" required>
+          <label for="Name">&nbsp Full Name</label>
+      </div>
+
+          <div class="form-floating mb-4 mt-4">
+              <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" style="background-color: aliceblue;" required>
+              <label for="useremail">&nbsp Email</label>
+          </div>
+          <div class="form-floating mb-4">
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Message" style="background-color: aliceblue;" required>
+              <label for="message">&nbsp Subject</label>
+          </div>
+          <div class="form-floating mb-4">
+              <textarea  class="form-control" id="message" name="Message" placeholder="Message" style="background-color: aliceblue;" required>
+                </textarea>
+              <label for="message">&nbsp Message</label>
+          </div>
+          <div class="flex-container">
+          
+          <input id="btnc" type="submit" tabindex="-1" role="button" class="btn btn-success" tabindex="-1" value="Send Message" name="send">
+        </div>
+        
+        </form>
+      </div>
+
+
+    
+    </div>
+ 
+</div>
+
+        </div>
+        
+        </main>
+</body>
+<!--
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+    <script>
+      var btnc = document.getElementById('btnc');
+      btnc.addEventListener('click', function(e){
+        e.preventDefault();
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var subject = document.getElementById('subject').value;
+        var message = document.getElementById('message').value;
+
+
+
+
+        Email.send({
+    Host : "smtp.gmail.com",
+    Username : "chamb.khris@gmail.com",
+    Password : "wbqwxjuklzzuiwxy",
+    To : 'chamb.khris@gmail.com',
+    From : email,
+    Subject : subject,
+    Body : message
+}).then(
+  message => alert(message)
+);
+      
+    })
+
+
+    </script>
+
+  -->
+
+
+</html>
+

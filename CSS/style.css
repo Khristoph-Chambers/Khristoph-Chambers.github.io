@@ -1,0 +1,212 @@
+.black-b{
+    margin-top: 20px;
+    color: white;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.black-bg{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.card:hover {
+    background-image: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 59%, rgba(192,199,200,1) 100%);
+}
+
+.contact-hd-bg{
+    
+    margin-top: 20px;
+    background-color: rgb(255, 215, 0);
+    color: rgb(0, 0, 0);
+}
+
+.container-about-cards{
+    display: fixed;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.container-contact{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    display: flex;
+    
+    
+}
+
+.container-contact-border{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    border: dotted;
+    border-radius: 15px;
+    display: fixed;
+    
+    
+}
+
+
+
+.container-land{
+    
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.container-land2{
+    
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+
+.container-land3{
+    
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.container-land-cards{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+}
+
+.container-main{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.container-news-cards{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.flex-container-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-container-left-abt {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.flex-container-left-abt3 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.flex-container-left-abt2 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+}
+
+.flex-container-left-abt3 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.flex-container-just-abt {
+    display: flex;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 4%;
+    text-align: justify;
+}
+
+
+
+.main-header{
+    font-size: 60px;
+    margin-bottom: 4px;
+}
+
+.main-margin{
+    display: fixed;
+    margin-top: 10px;
+    text-align: center;
+    }
+
+.main-margin2{
+    
+    margin-top: 10px;
+    
+}
+
+
+.midpage-register{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.nv-col{
+    background-color:rgb(185, 32, 32)
+}
+
+.flex-container-services-left {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    text-align: center;
+}
+
+
+
+
+.faqbody{
+    margin-top: 50px;
+    margin-left: 350px;
+    font-size: 20px;
+  
+  }
+  
+  .faqhead{
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+  .chart-border{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 650px;
+    border: 5px solid black;
+
+  }
