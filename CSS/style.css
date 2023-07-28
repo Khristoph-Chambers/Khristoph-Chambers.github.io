@@ -3,6 +3,7 @@
     color: white;
     margin-left: 50px;
     font-size: 22px;
+    
 }
 
 .black-bg{
@@ -60,6 +61,7 @@
     text-align: center;
     font-size: 100px;
     color: rgb(0, 0, 0);
+    
 }
 .container-land-about{
     
@@ -70,7 +72,8 @@
 
 
 .container-land2{
-    
+    margin-top: 5%;
+    margin-bottom: 1%;
     text-align: center;
     font-size: 60px;
     color: rgb(255, 255, 255);
