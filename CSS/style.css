@@ -6,10 +6,25 @@
     
 }
 
+.black-b-reverse{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    font-size: 22px;
+    
+}
+
 .black-bg{
     
     background-color: black;
     color: white;
+    text-align: center;
+}
+
+.black-bg-reverse{
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
