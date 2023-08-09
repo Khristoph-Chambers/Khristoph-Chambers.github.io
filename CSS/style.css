@@ -2,7 +2,15 @@
     margin-top: 20px;
     color: white;
     margin-left: 50px;
-    font-size: 22px;
+    font-size: 50%;
+    
+}
+
+.black-b2{
+    margin-top: 20px;
+    color: white;
+    margin-left: 50px;
+    font-size: 60%;
     
 }
 
@@ -10,7 +18,7 @@
     margin-top: 20px;
     color: rgb(0, 0, 0);
     margin-left: 50px;
-    font-size: 22px;
+    font-size: 60%;
     
 }
 
@@ -133,6 +141,7 @@
 .flex-container {
     display: flex;
     justify-content: center;
+    word-wrap: normal;
 }
 .flex-container-left {
     display: flex;
