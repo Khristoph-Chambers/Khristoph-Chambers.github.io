@@ -10,7 +10,7 @@
     margin-top: 20px;
     color: white;
     margin-left: 50px;
-    font-size: 50%;
+    font-size: 45%;
     
 }
 
@@ -18,7 +18,7 @@
     margin-top: 20px;
     color: rgb(0, 0, 0);
     margin-left: 50px;
-    font-size: 50%;
+    font-size: 45%;
     
 }
 
@@ -114,9 +114,9 @@
 
 
 .container-land-cards{
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
+    display: fixed;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 30px;
 }
 
@@ -135,6 +135,13 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 50px;
+}
+
+.container-services-image{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-bottom: 20%;
 }
 
 
