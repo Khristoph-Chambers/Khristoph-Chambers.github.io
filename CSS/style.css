@@ -138,10 +138,8 @@
 }
 
 .container-services-image{
-    margin-top: 20%;
-    margin-left: 10%;
-    margin-right: 25%;
-    margin-bottom: 20%;
+    align-content: center;
+    align-items: center;
 }
 
 
@@ -272,7 +270,7 @@
   .chart-border{
     margin-left: 20%;
     margin-right: 20%;
-    height: 650px;
+    height: 30rem;
     border: 5px solid black;
 
   }
