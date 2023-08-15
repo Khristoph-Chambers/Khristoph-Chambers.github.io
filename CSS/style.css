@@ -50,8 +50,8 @@
 .container-about-cards{
     display: fixed;
     margin-top: 50px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 50px;
 }
 
@@ -124,8 +124,8 @@
 
 .container-land-cards{
     display: fixed;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 30px;
 }
 
