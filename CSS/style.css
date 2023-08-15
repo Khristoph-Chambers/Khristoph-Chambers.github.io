@@ -201,6 +201,17 @@
     margin-top: 2%;
 }
 
+.flex-container-left-text-abt3 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+
 .flex-container-left-abt3 {
     display: flex;
     justify-content: flex-start;
