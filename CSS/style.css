@@ -79,14 +79,7 @@
 }
 
 
-.container-reg-upload{
-    
-    text-align: center;
-    font-size: 125%;
-    margin-left: 20%;
-    margin-right: 20%;
-    
-}
+
 
 
 .container-land{
@@ -129,6 +122,14 @@
     margin-bottom: 30px;
 }
 
+.container-land-cards-for-news{
+    display: fixed;
+    margin-top: 40px;
+    margin-left: 26%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+}
+
 .container-main{
     display: flex;
     margin-left: 80px;
@@ -149,10 +150,21 @@
 }
 .container-news-cards{
     display: flex;
+    align-items: center;
     margin-top: 50px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 50px;
+}
+
+
+.container-reg-upload{
+    
+    text-align: center;
+    font-size: 125%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
 
 .container-services-image{
