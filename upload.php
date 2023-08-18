@@ -36,17 +36,17 @@ if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
 				$sql = "INSERT INTO images(image_url) 
 				//        VALUES('$new_img_name')";
 				//mysqli_query($conn, $sql);
-				header("Location: index.html");
+				header("Location: submit.html");
 			}else {
 				$em = "You can't upload files of this type";
-		        header("Location: index.php?error=$em");
+		        header("Location: index.html?error=$em");
 			}
 		}
 	}else {
 		$em = "unknown error occurred!";
-		header("Location: index.php?error=$em");
+		header("Location: index.html?error=$em");
 	}
 
 }else {
-	header("Location: index.php");
+	header("Location: index.html");
 }
