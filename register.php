@@ -399,7 +399,7 @@
 
            <input type="submit" 
                   name="submit"
-                  value="Upload">
+                  value="Submit">
      	
      </form>
 
