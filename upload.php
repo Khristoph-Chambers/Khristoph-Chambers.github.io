@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
-    include "C:\\xampp\htdocs\\IXPWebsite\\IXPWebsite\\db_conn.php";
+    include "db_conn.php";
 
     echo "<pre>";
     print_r($_FILES['my_image']);
@@ -30,8 +30,8 @@ if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
                 move_uploaded_file($tmp_name, $img_upload_path);
 
                 // Insert into Database using prepared statement
-                $sql = "INSERT INTO file_name(file_name) VALUES(?)";
-                $stmt = mysqli_prepare($conn, $sql);
+                $sql = "INSERT INTO forms(file_name) VALUES(?)";
+                $stmt = mysqli_prepare($con, $sql);
                 mysqli_stmt_bind_param($stmt, "s", $new_img_name);
                 mysqli_stmt_execute($stmt);
                 mysqli_stmt_close($stmt);
@@ -51,6 +51,6 @@ if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
         header("Location: index.html$em");
     }
 } else {
-    header("Location: tester.html");
+    header("Location: index.html");
 }
 ?>

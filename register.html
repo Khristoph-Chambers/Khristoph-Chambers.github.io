@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     
-    <script  src="regval.js" defer></script>
+    <script src="regval.js" defer></script>
     
       </head>
   <body>
@@ -71,38 +71,15 @@
                 <div class="card card-registration card-registration-2" style="border-radius: 15px;">
                   <div class="card-body p-0">
                     <div class="row g-0">
-                      <div class="col-lg-6">
+                      <div class="col-lg-4">
                         <div class="p-5">
                           <h3 class="fw-normal mb-5" style="color: #4835d4;">General Infomation</h3>
         
-<!--
-                          <form id="form" action="/">
 
-                            <h1>Registration</h1>
-                            <div class="input-control" required>
-                              <label for="firstname">First Name</label> 
-                              <input id="firstname" name="firstname" type="text">
-                              <div class="error"></div>
-                            
-                            </div>
-
-                            <div class="input-control" aria-required="true">
-                              <label for="lastname">Last Name</label> 
-                              <input id="lastname" name="lastname" type="text">
-                              <div class="error"></div>
-                            
-                            </div>
-                            
-
-                            </div>
-                            <button type="submit"> Sign Up</button>
+                          
 
 
-
-                          </form>
-
-
-                        -->
+                       
 
 
                         <div id="error" style="color: red; text-decoration: red;"></div>
@@ -187,7 +164,7 @@
         
                         </div>
                       </div>
-                      <div class="col-lg-6 bg-indigo text-white">
+                      <div class="col-lg-4 bg-indigo text-white">
                         <div class="p-5">
                           <h3 class="fw-normal mb-5">Organization</h3>
         
@@ -290,25 +267,130 @@
                             </div>
                           
                             <button type="submit" role="button" class="btn btn-success" >Sign Up</button>
+
+
+
+
+                            
                           
-                            </form>
+                            
+                          </div>
+                          
+                        </div>
+                      
+                        <div class="col-lg-4">
+                          <div class="p-5">
+                            <h3 class="fw-normal mb-5" style="color: #4835d4;">Applicant Information</h3>
+          
+  
+                            
+  
+  
+                         
+  
+  
+                          <div id="error" style="color: red; text-decoration: red;"></div>
+                            <form id="form"  action="/" method="GET" novalidate>
+                            <div class="row">
+                              <div class="mb-4 pb-2">
+          
+                                <div class="form-floating">
+                                  
+                                  <input type="text" id="firstname" class="form-control form-control-md" name="firstname" required>
+                                  <label class="form-label" for="firstname">First Name</label>
+                                    <div class="valid-feedback">
+                                      Looks good!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                      First Name is required!
+                                   </div>
+                                </div>
+          
+                              </div>
+                              <div class="mb-4 pb-2">
+          
+                                <div class="form-floating">
+                                  
+                                  <input type="text" id="lastname" class="form-control form-control-md" name="lastname"  required>
+                                  <label  class="form-label" for="lastname">Last Name</label>
+                                    <div class="valid-feedback">
+                                      Looks good!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                      Last Name is required!
+                                   </div>
+                                </div>
+          
+                              </div>
+                            </div>
+          
+                            <div class="row">
+                              <div class="mb-4 pb-2">
+          
+                                <div class="form-floating">
+                                  <input type="email" id="emailaddress" class="form-control form-control-md" name="emailaddress" required>
+                                  <label class="form-label" for="emailaddress">Email</label>
+                                  <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                                  <div class="invalid-feedback">
+                                   Email is required.
+                                 </div>
+                                </div>
+          
+                              </div>
+                              <div class="mb-4 pb-2">
+          
+                                <div class="form-floating">
+                                  
+                                  <input type="text" id="orgname" class="form-control form-control-md" name="orgname" >
+                                  <label class="form-label" for="orgname">Organization Name</label>                               
+                                </div>
+          
+                              </div>
+                            </div>
+          
+                            <div class="mb-4 pb-2">
+                              <div class="form-floating text-black">
+                                <input type="email" id="orgemailaddress" class="form-control form-control-md" name="orgemail" required>
+                                  <label class="form-label" for="orgemailaddress">Organization Email</label>
+                                  <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="mb-4 pb-2">
+          
+                               <div class="form-floating">
+                                <input type="tel" id="orgnum" name="orgnum"class="form-control form-control-md" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                <label class="form-label" placeholder="876-455-6578" for="orgnum">Organization Telephone (###-###-####)</label> 
+                                
+                              </div>
+        
+                            </div>
+          
                           </div>
                         </div>
+                      
                       </div>
+
+                      
                     </div>
-                  </div>
+                    
+                     </div>
+
                 </div>
+                
               </div>
+              
             </div>
 
-
-
-
-
-          
        
           </div>
         </div>
+
+
+        <!--
 
         <div class="container-land3" style="background-image: url(Images/bg-reg.jpeg); width: 100%">
           <strong style="font-size: 185%; word-wrap: break-word; color: #4835d4;">REGISTER WITH US!</strong> <hr>
@@ -367,13 +449,20 @@
     </div>
 
 
-       
+     
+    
+
+    
       <div class="container-reg-upload">
         <button >
         <a href="Files\JAIXP Application Form.pdf" download>Download File</a>
           </button>
         <br><br>
 </div>
+
+
+
+
 
         <div class="flex-container-left-abt3">
           <br><br>
@@ -384,9 +473,7 @@
 
 
 
-            <?php if (isset($_GET['error'])): ?>
-		        <p><?php echo $_GET['error']; ?></p>
-	          <?php endif ?>
+            
 
 
 
@@ -408,7 +495,7 @@
 
 
     </div>
-
+            -->
 <!--
 
 <div class="container-reg-upload" >
