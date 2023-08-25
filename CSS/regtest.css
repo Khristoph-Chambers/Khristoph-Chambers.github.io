@@ -45,7 +45,7 @@
 .container-r form{
     position: relative;
     margin-top: 16px;
-    min-height: 490px;
+    min-height: 800px;
     background-color: #fff;
     overflow: hidden;
 }
@@ -89,6 +89,21 @@ form .fields .input-field{
     flex-direction: column;
     margin: 4px 0;
 }
+
+form .fields .input-field2{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+form .fields .input-field3{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
 .input-field label{
     font-size: 12px;
     font-weight: 500;
@@ -105,6 +120,35 @@ form .fields .input-field{
     height: 42px;
     margin: 8px 0;
 }
+
+
+
+.input-field2 input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 55px;
+    width: 100%;
+    margin: 8px 0;
+}
+
+
+.input-field3 input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+
 .input-field input :focus,
 .input-field select:focus{
     box-shadow: 0 3px 6px rgba(0,0,0,0.13);
