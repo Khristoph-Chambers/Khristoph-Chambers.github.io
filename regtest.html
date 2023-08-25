@@ -108,7 +108,9 @@
         <header>Registration</header>
         <form action="#">
             <div class="form first">
+               
                 <div class="details personal">
+
                     <span class="title">Organization Details</span>
                     <div class="fields">
                         <div class="input-field">
@@ -129,25 +131,15 @@
                         </div>
                         <div class="input-field">
                             <label>Orgnization TRN</label>
-                            <input type="text" placeholder="Enter Organization TRN" required>
+                            <input type="number" placeholder="Enter Organization TRN" required>
                         </div>
 
-                        <!--
-                        <div class="input-field">
-                            <label>Gender</label>
-                            <select required>
-                                <option disabled selected>Select gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Others</option>
-                            </select>
-                        </div>
-                    -->
+                       
 
 
                         <div class="input-field">
                             <label>Organization Registration Number</label>
-                            <input type="text" placeholder="Enter Orgnization Registration No." required>
+                            <input type="number" placeholder="Enter Orgnization Registration No." required>
                         </div>
                     </div>
                 </div>
@@ -167,8 +159,19 @@
                             <input type="text" placeholder="Enter Parish/State" required>
                         </div>
                         <div class="input-field">
-                            <label>Contact Person:</label>
-                            <input type="text" placeholder="Enter Contact Person" required>
+                            <label>Country</label>
+                            <input type="text" placeholder="Enter Country" required>
+                        </div>
+                        </div>
+                        </div>
+                        
+                        <div class="details ID">
+                            <span class="title">Organization Contact Person</span>
+                            <div class="fields">
+
+                        <div class="input-field">
+                            <label>Contact Person for your Organization</label>
+                            <input type="text" placeholder="Enter Contact Person Name" required>
                         </div>
                         <div class="input-field">
                             <label>Email</label>
@@ -183,18 +186,27 @@
                             <input type="text" placeholder="Enter Postal Address" required>
                         </div>
                         <div class="input-field">
+                            <label>Postal Code</label>
+                            <input type="number" placeholder="Enter Postal Code" required>
+                        </div>
+                        <div class="input-field">
                             <label>City</label>
-                            <input type="number" placeholder="Enter City" required>
+                            <input type="text" placeholder="Enter City" required>
                         </div>
                         <div class="input-field">
                             <label>Parish/State</label>
                             <input type="text" placeholder="Enter Parish/State" required>
                         </div>
-
+                        <div class="input-field">
+                            <label>Country</label>
+                            <input type="text" placeholder="Enter Country" required>
+                        </div>
+                        
+                        
                         <div class="input-field3">
                             <label>Description of Organization</label>
                             <select required>
-                                <option disabled selected>Select Organization Descrition</option>
+                                <option disabled selected>Select Organization Description</option>
                                 <option>Content Delivery Network</option>
                                 <option>Educational Institution</option>
                                 <option>Content Provider</option>
@@ -224,64 +236,222 @@
                     </button>
                 </div> 
             </div>
+        
             <div class="form second">
-                <div class="details address">
-                    <span class="title">Address Details</span>
+                
+                <div class="details address"><br>
+                    <span class="title">Technical Staff</span><br>
                     <div class="fields">
                         <div class="input-field">
-                            <label>Address Type</label>
-                            <input type="text" placeholder="Permanent or Temporary" required>
+                            <label>Contact Person: </label>
+                            <input type="text" placeholder="Contact Person" required>
                         </div>
                         <div class="input-field">
-                            <label>Nationality</label>
-                            <input type="text" placeholder="Enter nationality" required>
+                            <label>Contact Person Address</label>
+                            <input type="text" placeholder="Technical Contact Person Address" required>
                         </div>
                         <div class="input-field">
-                            <label>State</label>
-                            <input type="text" placeholder="Enter your state" required>
+                            <label>City</label>
+                            <input type="text" placeholder="Enter City" required>
                         </div>
                         <div class="input-field">
-                            <label>District</label>
-                            <input type="text" placeholder="Enter your district" required>
+                            <label>Parish/State</label>
+                            <input type="text" placeholder="Enter Parish/State" required>
                         </div>
                         <div class="input-field">
-                            <label>Block Number</label>
-                            <input type="number" placeholder="Enter block number" required>
+                            <label>Country</label>
+                            <input type="text" placeholder="Enter Country" required>
                         </div>
                         <div class="input-field">
-                            <label>Ward Number</label>
-                            <input type="number" placeholder="Enter ward number" required>
+                            <label>Postal Code</label>
+                            <input type="number" placeholder="Enter Postal Code" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Telephone Number</label>
+                            <input type="number" placeholder="Enter Telephone Number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter Email" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Fax Number</label>
+                            <input type="number" placeholder="Enter Fax Number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Position</label>
+                            <input type="text" placeholder="Enter Position" required>
                         </div>
                     </div>
                 </div>
+
+                <br>
                 <div class="details family">
-                    <span class="title">Family Details</span>
+                    <span class="title">Billing Info</span><br>
                     <div class="fields">
                         <div class="input-field">
-                            <label>Father Name</label>
-                            <input type="text" placeholder="Enter father name" required>
+                            <label>Billing Organization Name</label>
+                            <input type="text" placeholder="Enter Billing Organization name" required>
                         </div>
                         <div class="input-field">
-                            <label>Mother Name</label>
-                            <input type="text" placeholder="Enter mother name" required>
+                            <label>Billing Contact Name</label>
+                            <input type="text" placeholder="Enter Billing Contact name" required>
                         </div>
                         <div class="input-field">
-                            <label>Grandfather</label>
-                            <input type="text" placeholder="Enter grandfther name" required>
+                            <label>Address</label>
+                            <input type="text" placeholder="Enter Address" required>
                         </div>
                         <div class="input-field">
-                            <label>Spouse Name</label>
-                            <input type="text" placeholder="Enter spouse name" required>
+                            <label>City</label>
+                            <input type="text" placeholder="Enter City" required>
                         </div>
                         <div class="input-field">
-                            <label>Father in Law</label>
-                            <input type="text" placeholder="Father in law name" required>
+                            <label>Parish/State</label>
+                            <input type="text" placeholder="Enter Parish/State" required>
                         </div>
                         <div class="input-field">
-                            <label>Mother in Law</label>
-                            <input type="text" placeholder="Mother in law name" required>
+                            <label>Country</label>
+                            <input type="text" placeholder="Enter Country" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Postal Code</label>
+                            <input type="number" placeholder="Enter Postal Code" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Telephone Number</label>
+                            <input type="number" placeholder="Enter Telephone Number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter Email" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Fax Number</label>
+                            <input type="number" placeholder="Enter Fax Number" required>
                         </div>
                     </div>
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="nextBtn">
+                            <span class="btnText">Next</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+
+
+
+<!--Network information-->
+        <div class="form third">
+        
+
+            <div class="details address">
+                <span class="title">Network information</span>
+                <div class="fields">
+                    <div class="input-field">
+                        <label>AS number(s) to use for Peering</label>
+                        <input type="text" placeholder="Enter AS number" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Contact Person</label>
+                        <input type="text" placeholder="Enter Contact Person" required>
+                    </div>
+                    <div class="input-field">
+                        <label>
+                            <input type="checkbox" name="option1" value="option1">
+                            1Gbs
+                          
+                          </label>
+                       
+                        <label>
+                            <input type="checkbox" name="option2" value="option2">
+                            10Gbs
+                          </label>
+                          </div>
+
+                    <div class="input-field">
+                        <label>Required No. of 1Gbs Ports</label>
+                        <input type="number" placeholder="Enter Required Ports" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Required No. of 10Gbs Ports</label>
+                        <input type="number" placeholder="Enter Required Ports" required>
+                    </div>
+                    <div class="input-field">
+                        <label>NOC Contact number</label>
+                        <input type="number" placeholder="Enter NOC Contact Number" required>
+                    </div>
+                    <div class="input-field">
+                        <label>NOC Contact Email</label>
+                        <input type="text" placeholder="Enter NOC Email" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Type of Internet Connection you posses</label>
+                        <input type="text" placeholder="Enter Internet Connection" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Bandwidth of Connection</label>
+                        <input type="text" placeholder="Enter Bandwidth of Connection" required>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="details family">
+                <span class="title">Upstream Provider</span>
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Name of Upstream Provider</label>
+                        <input type="text" placeholder="Enter Upstream Provider" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Upstream Provider's ASN</label>
+                        <input type="number" placeholder="Enter Upstream Provider's ASN" required>
+                    </div>
+
+
+                    <div class="input-field">
+                        <label>Peering Policy</label>
+                        <select required>
+                            <option disabled selected>Select Peering Policy</option>
+                            <option>Open</option>
+                            <option>Closed</option>
+                            <option>Conditional</option>
+                        </select>
+                    </div>
+
+
+                    <div class="input-field">
+                        <label>City</label>
+                        <input type="text" placeholder="Enter City" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Parish/State</label>
+                        <input type="text" placeholder="Enter Parish/State" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Country</label>
+                        <input type="text" placeholder="Enter Country" required>
+                    </div>
+                    
+                    
+                    <div class="input-field">
+                        <label>Telephone Number</label>
+                        <input type="number" placeholder="Enter Telephone Number" required>
+                    </div>
+                    <div class="input-field">
+                        <label>Email</label>
+                        <input type="text" placeholder="Enter Email" required>
+                    </div>
+                    
+                </div>
+
+
+
+
                     <div class="buttons">
                         <div class="backBtn">
                             <i class="uil uil-navigator"></i>
@@ -292,13 +462,29 @@
                             <span class="btnText">Submit</span>
                             <i class="uil uil-navigator"></i>
                         </button>
+                    
                     </div>
+                    -->
                 </div> 
             </div>
         </form>
     </div>
         </main>
+
+
+
+         <!--
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                    -->
 </body>
 
-<script src="script.js"></script>
+<script src="regtestval.js"></script>
 </html>

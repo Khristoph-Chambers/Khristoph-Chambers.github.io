@@ -45,7 +45,7 @@
 .container-r form{
     position: relative;
     margin-top: 16px;
-    min-height: 800px;
+    min-height: 930px;
     background-color: #fff;
     overflow: hidden;
 }
@@ -60,6 +60,17 @@
     transform: translateX(100%);
 }
 form.secActive .form.second{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+.container-r form .form.third{
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+}
+form.secActive .form.third{
     opacity: 1;
     pointer-events: auto;
     transform: translateX(0);
